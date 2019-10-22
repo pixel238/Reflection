@@ -2,6 +2,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+//Disadvantage is that when a name of the class in the hidden api changes we need to manually change it here(string).
 public class Demo {
     public static void main(String args[]) throws Exception
     {
